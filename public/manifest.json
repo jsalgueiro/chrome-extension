@@ -1,6 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Chrome Extension",
+  "name": "Chrome Extension Scaffold",
+  "description": "Using the power of React to implement Google Chrome extensions",
+  "manifest_version": 3,
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "favicon.ico"
+  },
   "icons": [
     {
       "src": "favicon.ico",
